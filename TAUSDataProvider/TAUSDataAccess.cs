@@ -73,6 +73,27 @@ namespace Microsoft.Sample.Multilingual.Provider
             return languages;
         }
 
+        static internal string Translate(string languagePair, string text)
+        {
+            string translatedValue = string.Empty;
+            try
+            {
+                // Get the translated value.
+                translatedValue = ResxTranslator.Translator.TranslateText(text, languagePair);
+                if (translatedValue.StartsWith("<html>")) translatedValue = string.Empty;
+                //Trace.WriteLine(string.Format("Given Text is {0} and Target Language is {1}. Result - {2}.",
+                //    text, targetLanguage.Name, translatedValue));
+            }
+            catch (Exception /*ex*/)
+            {
+                //string errorString = "Exception while translating, please check the connectivity." + ex.Message;
+                //Trace.WriteLine(errorString);
+                translatedValue = string.Empty;// throw new WebException(errorString);
+
+            }
+            return translatedValue;
+        }
+
         /// <summary>
         /// Queries the provider for matching translation 
         /// </summary>
@@ -107,7 +128,8 @@ namespace Microsoft.Sample.Multilingual.Provider
             //    {
             //        String source = trans.Element("source").Value;
             String source = srcString;
-
+            String target = Translate(srcCulture.TwoLetterISOLanguageName + "|" + trgCulture.TwoLetterISOLanguageName, srcString);
+            if (target == string.Empty) return transResult;
             //  Select the best translation that mets the minimum confidence requirement.
             //double confidence = CalculateConfidence(srcString, source);
             double confidence = 75;
@@ -115,7 +137,7 @@ namespace Microsoft.Sample.Multilingual.Provider
                     {
                         transResult.ProviderName = Localizable.ProviderDisplayName;
                         transResult.Source = source;
-                        transResult.Target = ResxTranslator.Translator.TranslateText(srcString, srcCulture.TwoLetterISOLanguageName + "|" + trgCulture.TwoLetterISOLanguageName); //trans.Element("target").Value;
+                        transResult.Target = target; //trans.Element("target").Value;
                         transResult.TranslationState = new TranslationState() { State = TransState.NeedsReview };
                         transResult.TranslationType = new TranslationType() { Type = TransType.TranslationMemory };
                         transResult.Properties = new TAUSDataProviderProperties() { Provider = "Google Translate", Product = "Google Translate", Owner = "Google", Industry = "Translation", ContentType = "Text" }; // GetMetadata(trans);
@@ -166,7 +188,8 @@ namespace Microsoft.Sample.Multilingual.Provider
             //        String source = trans.Element("source").Value;
             //        String target = trans.Element("target").Value;
             String source = srcString;
-            String target = ResxTranslator.Translator.TranslateText(srcString, srcCulture.TwoLetterISOLanguageName + "|" + trgCulture.TwoLetterISOLanguageName);
+            String target = Translate(srcCulture.TwoLetterISOLanguageName + "|" + trgCulture.TwoLetterISOLanguageName, srcString);
+            if (target == string.Empty) return suggestResults.ToArray();
             SuggestionResult suggestResult = new SuggestionResult()
                     {
                         Source = source,
