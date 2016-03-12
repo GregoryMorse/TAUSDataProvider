@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Translations>
+  <Configuration>
+    <UseConfidence>False</UseConfidence>
+  </Configuration>
+  <Resources srcCulture="en-US" trgCulture="fr-FR" >
+    <Resource source="add" target="[fr-FR]add" confidence="90" throw="true"/>
+    <Resource source="Term" target="[fr-FR]Term" confidence="75" throw="true"/>
+    <Resource source="term" target="[fr-FR]term" confidence="45" throw="true"/>
+    <Resource source="location" target="[fr-FR]mahali_b"  confidence="55"/>
+    <Resource source="refresh" target="[fr-FR]burudisha"/>
+    <Resource source="settings" target="[fr-FR]mazingira"/>
+    <Resource source="location" target="[fr-FR]mahali_c"  confidence="85"/>
+    <Resource source="location" target="[fr-FR]mahali"  confidence="100"/>
+    <Resource source="Enter Term or Phrase" target="[fr-FR]Enter Term or Phrase" confidence="96" throw="false"/>
+    <Resource source="From language" target="[fr-FR]From language" confidence="96" throw="false"/>
+    <Resource source="en-US" target="fr-FR" confidence="96" throw="false"/>/>
+    <Resource source="Menu Item" target="[fr-FR]Menu Item" confidence="96" throw="false"/>/>
+    <Resource source="Action required" target="[fr-FR]Action required" confidence="96" throw="false"/>/>
+    <Resource source="day" target="[fr-FR]unyevu"/>
+    <Resource source="humidity" target="[fr-FR]LeftToRight"/>
+    <Resource source="search" target="[fr-FR]sw-KE"/>
+    <Resource source="APP LANGUAGE" target="[fr-FR]kutafuta"/>
+    <Resource source="Restart the app to display selected language" target="[fr-FR]APP LUGHA"/>
+    <Resource source="Celsius" target="[fr-FR]Anzisha upya programu kuonyesha lugha ya kuchaguliwa"/>
+    <Resource source="default" target="[fr-FR]Celsius"/>
+    <Resource source="temperature format" target="[fr-FR]default"/>
+    <Resource source="Fahrenheit" target="[fr-FR]joto format"/>
+    <Resource source="Language override" target="[fr-FR]Lugha override"/>
+    <Resource source="(Phone Default)" target="[fr-FR](Simu Default)"/>
+    <Resource source="sunrise" target="[fr-FR]jua"/>
+    <Resource source="sunset" target="[fr-FR]sunset"/>
+    <Resource source="high" target="[fr-FR]high"/>
+    <Resource source="low" target="[fr-FR]Asili"/>
+    <Resource source="weather location" target="[fr-FR]hali ya hewa ya mahali"/>
+    <Resource source="en-US" target="[fr-FR]sw-KE"/>
+    <Resource source="wind" target="[fr-FR]upepo"/>
+  </Resources>
+  <Resources srcCulture="en-US" trgCulture="sw-KE" >
+    <Resource source="location" target="mahali"/>
+    <Resource source="refresh" target="burudisha"/>
+    <Resource source="settings" target="mazingira"/>
+    <Resource source="CLIMATE OBSERVER" target="sasa"/>
+    <Resource source="current" target="umande uhakika"/>
+    <Resource source="dewpoint" target="anahisi kama {0}°{1}"/>
+    <Resource source="feels like {0}°{1}" target="wiki"/>
+    <Resource source="week" target="siku"/>
+    <Resource source="day" target="unyevu"/>
+    <Resource source="humidity" target="LeftToRight"/>
+    <Resource source="search" target="sw-KE"/>
+    <Resource source="APP LANGUAGE" target="kutafuta"/>
+    <Resource source="Restart the app to display selected language" target="APP LUGHA"/>
+    <Resource source="Celsius" target="Anzisha upya programu kuonyesha lugha ya kuchaguliwa"/>
+    <Resource source="default" target="Celsius"/>
+    <Resource source="temperature format" target="default"/>
+    <Resource source="Fahrenheit" target="joto format"/>
+    <Resource source="Language override" target="Lugha override"/>
+    <Resource source="(Phone Default)" target="(Simu Default)"/>
+    <Resource source="sunrise" target="jua"/>
+    <Resource source="sunset" target="sunset"/>
+    <Resource source="high" target="high"/>
+    <Resource source="low" target="Asili"/>
+    <Resource source="weather location" target="hali ya hewa ya mahali"/>
+    <Resource source="en-US" target="sw-KE"/>
+    <Resource source="wind" target="upepo"/>
+  </Resources>
+</Translations>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+              
+              
+             
