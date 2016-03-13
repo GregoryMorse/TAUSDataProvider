@@ -50,7 +50,7 @@ namespace ResxTranslator
         /// <returns>Translated to String</returns>
         public static string TranslateText(string input, string languagePair)
         {
-            string url = String.Format("http://www.google.com/translate_t?hl=en&ie=UTF8&text={0}&langpair={1}", System.Web.HttpUtility.HtmlEncode(input), languagePair);
+            string url = String.Format("http://www.google.com/translate_t?hl=en&ie=UTF8&text={0}&langpair={1}", System.Web.HttpUtility.UrlEncode(input), languagePair);
             WebClient webClient = new WebClient();
             webClient.Encoding = System.Text.Encoding.UTF8;
             string result = webClient.DownloadStringUsingResponseEncoding(url);
