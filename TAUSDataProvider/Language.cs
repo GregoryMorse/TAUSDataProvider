@@ -42,7 +42,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Azerbaijani.
         /// </summary>
-        public static readonly Language Azerbaijani = new Language("Azerbaijani", "az");
+        public static readonly Language Azerbaijani = new Language("Azerbaijani", "az-latn");
 
         /// <summary>
         /// The Basque.
@@ -72,7 +72,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Bosnian.
         /// </summary>
-        public static readonly Language Bosnian = new Language("Bosnian", "bs");
+        public static readonly Language Bosnian = new Language("Bosnian", "bs-latn");
 
         /// <summary>
         /// The Burmese.
@@ -217,7 +217,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Hausa.
         /// </summary>
-        public static readonly Language Hausa = new Language("Hausa", "ha");
+        public static readonly Language Hausa = new Language("Hausa", "ha-latn");
 
         /// <summary>
         /// The Hawaiian.
@@ -307,7 +307,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Kurdish.
         /// </summary>
-        public static readonly Language Kurdish = new Language("Kurdish", "ku");
+        public static readonly Language Kurdish = new Language("Kurdish", "ku-latn");
 
         /// <summary>
         /// The Kyrgyz.
@@ -452,7 +452,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Serbian.
         /// </summary>
-        public static readonly Language Serbian = new Language("Serbian", "sr");
+        public static readonly Language Serbian = new Language("Serbian", "sr-cyrl");
 
         /// <summary>
         /// The Sesotho.
@@ -467,7 +467,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Sindhi.
         /// </summary>
-        public static readonly Language Sindhi = new Language("Sindhi", "sd");
+        public static readonly Language Sindhi = new Language("Sindhi", "sd-arab");
 
         /// <summary>
         /// The Sinhala.
@@ -517,7 +517,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Tajik.
         /// </summary>
-        public static readonly Language Tajik = new Language("Tajik", "tg");
+        public static readonly Language Tajik = new Language("Tajik", "tg-cyrl");
 
         /// <summary>
         /// The Tamil.
@@ -562,7 +562,7 @@ namespace ResxTranslator
         /// <summary>
         /// The Uzbek.
         /// </summary>
-        public static readonly Language Uzbek = new Language("Uzbek", "uz");
+        public static readonly Language Uzbek = new Language("Uzbek", "uz-latn");
 
         /// <summary>
         /// The Uighur.
