@@ -1,5 +1,7 @@
 using System.Collections.Generic;
 
+//<option value=af>Afrikaans</option><option value=sq>Albanian</option><option value=am>Amharic</option><option value=ar>Arabic</option><option value=hy>Armenian</option><option value=az>Azerbaijani</option><option value=eu>Basque</option><option value=be>Belarusian</option><option value=bn>Bengali</option><option value=bs>Bosnian</option><option value=bg>Bulgarian</option><option value=ca>Catalan</option><option value=ceb>Cebuano</option><option value=ny>Chichewa</option><option value=zh-CN>Chinese (Simplified)</option><option value=zh-TW>Chinese (Traditional)</option><option value=co>Corsican</option><option value=hr>Croatian</option><option value=cs>Czech</option><option value=da>Danish</option><option value=nl>Dutch</option><option value=en>English</option><option value=eo>Esperanto</option><option value=et>Estonian</option><option value=tl>Filipino</option><option value=fi>Finnish</option><option value=fr>French</option><option value=fy>Frisian</option><option value=gl>Galician</option><option value=ka>Georgian</option><option value=de>German</option><option value=el>Greek</option><option value=gu>Gujarati</option><option value=ht>Haitian Creole</option><option value=ha>Hausa</option><option value=haw>Hawaiian</option><option value=iw>Hebrew</option><option value=hi>Hindi</option><option value=hmn>Hmong</option><option value=hu>Hungarian</option><option value=is>Icelandic</option><option value=ig>Igbo</option><option value=id>Indonesian</option><option value=ga>Irish</option><option value=it>Italian</option><option value=ja>Japanese</option><option value=jw>Javanese</option><option value=kn>Kannada</option><option value=kk>Kazakh</option><option value=km>Khmer</option><option value=ko>Korean</option><option value=ku>Kurdish (Kurmanji)</option><option value=ky>Kyrgyz</option><option value=lo>Lao</option><option value=la>Latin</option><option value=lv>Latvian</option><option value=lt>Lithuanian</option><option value=lb>Luxembourgish</option><option value=mk>Macedonian</option><option value=mg>Malagasy</option><option value=ms>Malay</option><option value=ml>Malayalam</option><option value=mt>Maltese</option><option value=mi>Maori</option><option value=mr>Marathi</option><option value=mn>Mongolian</option><option value=my>Myanmar (Burmese)</option><option value=ne>Nepali</option><option value=no>Norwegian</option><option value=ps>Pashto</option><option value=fa>Persian</option><option value=pl>Polish</option><option value=pt>Portuguese</option><option value=pa>Punjabi</option><option value=ro>Romanian</option><option value=ru>Russian</option><option value=sm>Samoan</option><option value=gd>Scots Gaelic</option><option value=sr>Serbian</option><option value=st>Sesotho</option><option value=sn>Shona</option><option value=sd>Sindhi</option><option value=si>Sinhala</option><option value=sk>Slovak</option><option value=sl>Slovenian</option><option value=so>Somali</option><option value=es>Spanish</option><option value=su>Sundanese</option><option value=sw>Swahili</option><option value=sv>Swedish</option><option value=tg>Tajik</option><option value=ta>Tamil</option><option value=te>Telugu</option><option value=th>Thai</option><option value=tr>Turkish</option><option value=uk>Ukrainian</option><option value=ur>Urdu</option><option value=uz>Uzbek</option><option value=vi>Vietnamese</option><option value=cy>Welsh</option><option value=xh>Xhosa</option><option value=yi>Yiddish</option><option value=yo>Yoruba</option><option value=zu>Zulu</option>
+
 namespace ResxTranslator
 {    
     /// <summary>
@@ -68,6 +70,11 @@ namespace ResxTranslator
         public static readonly Language Bulgarian = new Language("Bulgarian", "bg");
 
         /// <summary>
+        /// The Bosnian.
+        /// </summary>
+        public static readonly Language Bosnian = new Language("Bosnian", "bs");
+
+        /// <summary>
         /// The Burmese.
         /// </summary>
         public static readonly Language Burmese = new Language("Burmese", "my");
@@ -76,6 +83,16 @@ namespace ResxTranslator
         /// The Catalan.
         /// </summary>
         public static readonly Language Catalan = new Language("Catalan", "ca");
+
+        /// <summary>
+        /// The Cebuano.
+        /// </summary>
+        public static readonly Language Cebuano = new Language("Cebuano", "ceb");
+
+        /// <summary>
+        /// The Chichewa.
+        /// </summary>
+        public static readonly Language Chichewa = new Language("Chichewa", "ny");
 
         /// <summary>
         /// The Cherokee.
@@ -96,6 +113,11 @@ namespace ResxTranslator
         /// The Traditional Chinese.
         /// </summary>
         public static readonly Language ChineseTraditional = new Language("Traditional Chinese", "zh-TW");
+
+        /// <summary>
+        /// The Corsican.
+        /// </summary>
+        public static readonly Language Corsican = new Language("Corsican", "co");
 
         /// <summary>
         /// The Croatian.
@@ -148,6 +170,11 @@ namespace ResxTranslator
         public static readonly Language Finnish = new Language("Finnish", "fi");
 
         /// <summary>
+        /// The Frisian.
+        /// </summary>
+        public static readonly Language Frisian = new Language("Frisian", "fy");
+
+        /// <summary>
         /// The French.
         /// </summary>
         public static readonly Language French = new Language("French", "fr");
@@ -183,6 +210,21 @@ namespace ResxTranslator
         public static readonly Language Gujarati = new Language("Gujarati", "gu");
 
         /// <summary>
+        /// The HaitianCreole.
+        /// </summary>
+        public static readonly Language HaitianCreole = new Language("HaitianCreole", "ht");
+
+        /// <summary>
+        /// The Hausa.
+        /// </summary>
+        public static readonly Language Hausa = new Language("Hausa", "ha");
+
+        /// <summary>
+        /// The Hawaiian.
+        /// </summary>
+        public static readonly Language Hawaiian = new Language("Hawaiian", "haw");
+
+        /// <summary>
         /// The Hebrew.
         /// </summary>
         public static readonly Language Hebrew = new Language("Hebrew", "iw");
@@ -193,6 +235,11 @@ namespace ResxTranslator
         public static readonly Language Hindi = new Language("Hindi", "hi");
 
         /// <summary>
+        /// The Hmong.
+        /// </summary>
+        public static readonly Language Hmong = new Language("Hmong", "hmn");
+
+        /// <summary>
         /// The Hungarian.
         /// </summary>
         public static readonly Language Hungarian = new Language("Hungarian", "hu");
@@ -201,6 +248,11 @@ namespace ResxTranslator
         /// The Icelandic.
         /// </summary>
         public static readonly Language Icelandic = new Language("Icelandic", "is");
+
+        /// <summary>
+        /// The Igbo.
+        /// </summary>
+        public static readonly Language Igbo = new Language("Igbo", "ig");
 
         /// <summary>
         /// The Indonesian.
@@ -226,6 +278,11 @@ namespace ResxTranslator
         /// The Japanese.
         /// </summary>
         public static readonly Language Japanese = new Language("Japanese", "ja");
+
+        /// <summary>
+        /// The Javanese.
+        /// </summary>
+        public static readonly Language Javanese = new Language("Javanese", "jw");
 
         /// <summary>
         /// The Kannada.
@@ -263,6 +320,11 @@ namespace ResxTranslator
         public static readonly Language Laothian = new Language("Laothian", "lo");
 
         /// <summary>
+        /// The Latin.
+        /// </summary>
+        public static readonly Language Latin = new Language("Latin", "la");
+
+        /// <summary>
         /// The Latvian.
         /// </summary>
         public static readonly Language Latvian = new Language("Latvian", "lv");
@@ -273,9 +335,19 @@ namespace ResxTranslator
         public static readonly Language Lithuanian = new Language("Lithuanian", "lt");
 
         /// <summary>
+        /// The Luxembourgish.
+        /// </summary>
+        public static readonly Language Luxembourgish = new Language("Luxembourgish", "lb");
+
+        /// <summary>
         /// The Macedonian.
         /// </summary>
         public static readonly Language Macedonian = new Language("Macedonian", "mk");
+
+        /// <summary>
+        /// The Malagasy.
+        /// </summary>
+        public static readonly Language Malagasy = new Language("Malagasy", "mg");
 
         /// <summary>
         /// The Malay.
@@ -293,6 +365,11 @@ namespace ResxTranslator
         public static readonly Language Maltese = new Language("Maltese", "mt");
 
         /// <summary>
+        /// The Maori.
+        /// </summary>
+        public static readonly Language Maori = new Language("Maori", "mi");
+
+        /// <summary>
         /// The Marathi.
         /// </summary>
         public static readonly Language Marathi = new Language("Marathi", "mr");
@@ -301,6 +378,11 @@ namespace ResxTranslator
         /// The Mongolian.
         /// </summary>
         public static readonly Language Mongolian = new Language("Mongolian", "mn");
+
+        /// <summary>
+        /// The MyanmarBurmese.
+        /// </summary>
+        public static readonly Language MyanmarBurmese = new Language("MyanmarBurmese", "my");
 
         /// <summary>
         /// The Nepali.
@@ -353,9 +435,19 @@ namespace ResxTranslator
         public static readonly Language Russian = new Language("Russian", "ru");
 
         /// <summary>
+        /// The Samoan.
+        /// </summary>
+        public static readonly Language Samoan = new Language("Samoan", "sm");
+
+        /// <summary>
         /// The Sanskrit.
         /// </summary>
         public static readonly Language Sanskrit = new Language("Sanskrit", "sa");
+
+        /// <summary>
+        /// The ScotsGaelic.
+        /// </summary>
+        public static readonly Language ScotsGaelic = new Language("ScotsGaelic", "gd");
 
         /// <summary>
         /// The Serbian.
@@ -363,9 +455,24 @@ namespace ResxTranslator
         public static readonly Language Serbian = new Language("Serbian", "sr");
 
         /// <summary>
+        /// The Sesotho.
+        /// </summary>
+        public static readonly Language Sesotho = new Language("Sesotho", "st");
+
+        /// <summary>
+        /// The Shona.
+        /// </summary>
+        public static readonly Language Shona = new Language("Shona", "sn");
+
+        /// <summary>
         /// The Sindhi.
         /// </summary>
         public static readonly Language Sindhi = new Language("Sindhi", "sd");
+
+        /// <summary>
+        /// The Sinhala.
+        /// </summary>
+        public static readonly Language Sinhala = new Language("Sinhala", "si");
 
         /// <summary>
         /// The Sinhalese.
@@ -383,9 +490,19 @@ namespace ResxTranslator
         public static readonly Language Slovenian = new Language("Slovenian", "sl");
 
         /// <summary>
+        /// The Somali.
+        /// </summary>
+        public static readonly Language Somali = new Language("Somali", "so");
+
+        /// <summary>
         /// The Spanish.
         /// </summary>
         public static readonly Language Spanish = new Language("Spanish", "es");
+
+        /// <summary>
+        /// The Sundanese.
+        /// </summary>
+        public static readonly Language Sundanese = new Language("Sundanese", "su");
 
         /// <summary>
         /// The Swahili.
@@ -467,61 +584,119 @@ namespace ResxTranslator
         /// </summary>
         public static readonly Language Yiddish = new Language("Yiddish", "yi");
 
+        /// <summary>
+        /// The Yoruba.
+        /// </summary>
+        public static readonly Language Yoruba = new Language("Yoruba", "yo");
+
+        /// <summary>
+        /// The Zulu.
+        /// </summary>
+        public static readonly Language Zulu = new Language("Zulu", "zu");
+
         private static readonly ICollection<Language> translatableList = new[]
                 {
                     Afrikaans,
+                    Amharic,
                     Albanian,
                     Arabic,
+                    Armenian,
+                    Azerbaijani,
+                    Basque,
                     Belarusian,
+                    Bengali,
+                    Bosnian,
                     Bulgarian,
+                    Cebuano,
+                    Chichewa,
                     ChineseSimplified,
                     ChineseTraditional,
                     Catalan,
+                    Corsican,
                     Croatian,
                     Czech,
                     Danish,
                     Dutch,
                     English,
+                    Esperanto,
                     Estonian,
                     Filipino,
                     Finnish,
                     French,
+                    Frisian,
                     Galician,
+                    Georgian,
                     German,
                     Greek,
+                    Gujarati,
+                    HaitianCreole,
+                    Hausa,
+                    Hawaiian,
                     Hebrew,
                     Hindi,
+                    Hmong,
                     Hungarian,
                     Icelandic,
+                    Igbo,
                     Indonesian,
                     Irish,
                     Italian,
                     Japanese,
+                    Javanese,
+                    Kannada,
+                    Kazakh,
+                    Khmer,
                     Korean,
+                    Kurdish,
+                    Kyrgyz,
+                    Latin,
                     Latvian,
                     Lithuanian,
+                    Luxembourgish,
                     Macedonian,
+                    Malagasy,
                     Malay,
+                    Malayalam,
                     Maltese,
+                    Maori,
+                    Marathi,
+                    MyanmarBurmese,
+                    Nepali,
                     Norwegian,
+                    Pashto,
                     Persian,
                     Polish,
                     Portuguese,
+                    Punjabi,
                     Romanian,
                     Russian,
+                    Samoan,
+                    ScotsGaelic,
+                    Sesotho,
+                    Shona,
+                    Sindhi,
+                    Sinhala,
                     Spanish,
                     Serbian,
                     Slovak,
                     Slovenian,
+                    Somali,
+                    Sundanese,
                     Swahili,
                     Swedish,
+                    Tajik,
+                    Tamil,
+                    Telugu,
                     Thai,
                     Turkish,
                     Ukrainian,
                     Urdu,
+                    Uzbek,
                     Vietnamese,
                     Welsh,
                     Yiddish,
+                    Yoruba,
+                    Zulu
                 };
 
         private Language(string value)
